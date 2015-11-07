@@ -1,6 +1,6 @@
 function _strip_diff_leading_symbols
     set color_code_regex "(\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K])"
-    echo $color_code_regex
+    # echo $color_code_regex # DEBUG
     set ruler_output (_ruler)
 
     sed -r "s/^($color_code_regex)diff --git .*"'$'"//g" | \
