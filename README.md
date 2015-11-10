@@ -26,12 +26,12 @@ $ git_helpers
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [Dimitrios Mistriotis][author] et [al][contributors]
 
 
 [mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/pkg-git_helpers/graphs/contributors
+[author]:         http://github.com/dimitrismistriotis
+[contributors]:   https://github.com/dimitrismistriotis/pkg-git_helpers/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
