@@ -31,7 +31,7 @@ $ git_helpers
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/dimitrismistriotis
-[contributors]:   https://github.com/dimitrismistriotis/pkg-git_helpers/graphs/contributors
+[contributors]:   https://github.com/dimitrismistriotis/pkg-git_helpers/graphs/contributors.txt
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
