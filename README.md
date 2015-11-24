@@ -11,6 +11,9 @@
 
 Plugin for [Oh My Fish][omf-link].
 
+Includes git diff implementation from Paul Irish's dotfiles:
+https://github.com/paulirish/dotfiles/commit/6743b907ff586c28cd36e08d1e1c634e2968893e
+
 ## Install
 
 ```fish
