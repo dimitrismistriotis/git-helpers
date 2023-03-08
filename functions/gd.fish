@@ -1,7 +1,7 @@
 function gd
     set diff_so_fancy (which diff-so-fancy)
     # echo $diff_so_fancy
-    if [ -n "$diff_so_fancy" ]
+    if not string length --quiet $diff_so_fancy
         echo "Diff so fancy not available"
         exit -1
     end
