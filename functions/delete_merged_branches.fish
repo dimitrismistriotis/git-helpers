@@ -5,15 +5,13 @@ function delete_merged_branches
   #
   #                      All merged ones   | Not master, main, *
   set merged_branches (git branch --merged | grep -v -E "master|main|\*")
-  echo "merged_branches: $merged_branches"
+  # echo "merged_branches: $merged_branches"
   if [ (count $merged_branches) -eq 0 ]
-    echo "No branches to merge"
+    # echo "No branches to merge"
     return 0
   end
 
-  #
-  # Need to use variable instead of recalculating it
-  #
-	# All merged ones   | Not master, main, *         | Remove branch
-	git branch --merged | grep -v -E "master|main|\*" | xargs -n 1 git branch -d
+
+	# Remove branches:
+	echo $merged_branches | xargs -n 1 git branch -d
 end
